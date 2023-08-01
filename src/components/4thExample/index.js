@@ -34,7 +34,6 @@ const DraggableStuff = () => {
         localStorage.setItem("grid-layout", JSON.stringify(layouts));
         setCurrentLayout(layout)
         console.log(layout)
-        console.log(currentLayout)
     };
 
     return (
